@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ededed;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+
+.container {
+  width: 375px;
+  margin: auto;
+  background: #fff;
+  padding-bottom: 10px;
+  margin-top: -5px;
+}
+
+.post-container {
+  width: 375px;
+  margin: auto;
+  background: #fff;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.top-container {
+  display: flex;
+  padding: 15px 0px;
+}
+
+.section-container {
+  padding-left: 6px;
+  margin-top: -15px;
+  padding-bottom: 1px;
+}
+
+.section-container p {
+  margin-top: -15px;
+}
+
+.bottom-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bottom-section {
+  margin-bottom: 30px;
+}
+
+.bottom-section > p {
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+.img-icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img-icons-two {
+  width: 30px;
+  height: 30px;
+}
+
+.img-icons-two:hover,
+.img-icons-two:focus {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.img-logo {
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.post-image {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.header .img-icons {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.top-container .img-icons {
+  margin-left: 20px;
+}
+
+.text,
+.likes {
+  font-weight: bold;
+  margin-left: 20px;
+}
